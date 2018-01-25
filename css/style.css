@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+*{
+	margin: 0 auto;
+}
+
+.uper-gap{
+	margin-top: 80px;
+}
+.bottom-margin-left{
+	margin-left: 20px;
+}
+
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* The element to apply the animation to */
+
+.iamge-hov:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.footer{
+  height: 300px;
+  width: 100%;
+  background-color: #0069D9;
+}
+
+.footer-area {
+    
+    background: #0069D9;
+    padding: 120px 0px;
+    width: 100% !important;
+}
+
+.footer-area p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-social-link {
+    margin-top: 10px;
+}
+
+.footer-social-link ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-social-link ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.footer-social-link ul li a {
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-social-link ul li a:hover {
+    color: #000;
+}
+
+.google-font-title{
+    font-family: 'Lobster', cursive;
+    color: #000;
+    font-weight: 500;
+}
+.google-font-text{
+    font-family: 'Pacifico', cursive;
+    color: #586058;
+    font-size: 18px;
+}
+
+
+
